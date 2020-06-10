@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How stressed are you?</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>How stressed are you?</h2>
+      </div>
+      <form id="stress-test">
+        <div class="form-group">
+          <p>How many of these do you suffer from?:</p>
+          <input type="checkbox" name="effects" value="sleep"> Loss of sleep.<br>
+          <input type="checkbox" name="effects" value="appetite"> Loss of appetite.<br>
+          <input type="checkbox" name="effects" value="Lethargy"> Lethargy.<br>
+          <input type="checkbox" name="effects" value="energy"> Loss of energy.<br>
+          <input type="checkbox" name="effects" value="overwhelmed"> Feeling overwhelmed.<br>
+        </div>
+        <div class="form-group">
+          <p>Which of these medical symptoms do you suffer from?:</p>
+          <input type="checkbox" name="symptoms" value="blood-preassure"> High blood preassure<br>
+          <input type="checkbox" name="symptoms" value="anxiety">Anxiety.<br>
+          <input type="checkbox" name="symptoms" value="insomnia">insomnia<br>
+          <input type="checkbox" name="symptoms" value="nausia">Nausia.<br>
+          <input type="checkbox" name="symptoms" value="chest-pain">Chest pain.<br>
+          <input type="checkbox" name="symptoms" value="bloody">bloody stool.<br>
+        </div>
+        <div class="form-group">
+          <p>>How do you deal with stress?:</p>
+          <input type="checkbox" name="relief" value="meditate">Meditation. <br>
+          <input type="checkbox" name="relief" value="manage-time">Manage your time. <br>
+          <input type="checkbox" name="relief" value="pet">Pet an animal. <br>
+          <input type="checkbox" name="relief" value="excercise">excercise. <br>
+          <input type="checkbox" name="relief" value="eat-healthy"> eat healthy. <br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span idfects">
+        <p><b>Thes="efe are the negative affects of stress you have reported:</b></p>
+      </span>
+      <br>
+      <span id="symptoms">
+        <p><b>These are the symptoms you have reported from stress:</b></p>
+      </span>
+      <span id="relief">
+        <p><b>These are the ways to relieve stress that you have reported:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
